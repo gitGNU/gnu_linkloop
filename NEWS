@@ -1,0 +1,3 @@
+* Changes from 0.0.1
+  - Updated man page documenting all options
+  - Better validation and reporting of received packets
