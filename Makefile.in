@@ -599,8 +599,8 @@ uninstall-man: uninstall-man1
 	uninstall-info-am uninstall-man uninstall-man1
 
 
-$(srcdir)/ChangeLog: $(SOURCES)
-	cd $(srcdir) && cvs2cl -w -t --no-wrap -S -l '-l'
+#$(srcdir)/ChangeLog: $(SOURCES)
+#	cd $(srcdir) && cvs2cl -w -t --no-wrap -S -l '-l'
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:

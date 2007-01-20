@@ -22,5 +22,5 @@ lanscan_SOURCES		= common.c lanscan.c linkloop.h
 man_MANS		= linkloop.1
 EXTRA_DIST		= $(man_MANS)
 
-$(srcdir)/ChangeLog: $(SOURCES)
-	cd $(srcdir) && cvs2cl -w -t --no-wrap -S -l '-l'
+#$(srcdir)/ChangeLog: $(SOURCES)
+#	cd $(srcdir) && cvs2cl -w -t --no-wrap -S -l '-l'
