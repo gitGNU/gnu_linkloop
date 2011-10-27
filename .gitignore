@@ -1,0 +1,16 @@
+aclocal.m4
+autom4te.cache
+autotools_aux
+config.h
+config.h.in
+config.log
+config.status
+configure
+.deps
+lanscan
+linkloop
+linkloop_reply
+Makefile
+Makefile.in
+*.o
+stamp-h1

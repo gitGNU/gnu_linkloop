@@ -20,9 +20,8 @@
 
 AC_PREREQ(2.59)
 AC_INIT(linkloop, 0.0.3, oron@actcom.co.il)
-AC_CONFIG_AUX_DIR([aux])
+AC_CONFIG_AUX_DIR([autotools_aux])
 AC_CONFIG_SRCDIR([linkloop.c])
-AC_CONFIG_LIBOBJ_DIR([lib])
 AM_CONFIG_HEADER([config.h])
 AM_INIT_AUTOMAKE
 
